@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shopping.css">
+    <title>Potter's Stop</title>
+    <link rel="icon" type ="image/png" href="favicon.png">
+</head>
+<body>
+    <header >
+    <div class="row1">
+        <div class="Hcontainer group">
+            <img src="images/logo.png" class="logo" height="100px" width="150px">
+            <nav>
+                &emsp;<a href="#wrapper" >HOME</a>&emsp;&emsp;
+                &emsp;<a href="#cart">GO TO CART</a>&emsp;&emsp;
+                <p>SEARCH:&nbsp;</p> <input type="text" name="search" id="search" placeholder="Search Item" onkeyup= "search()">&emsp;&emsp;
+                <p>FILTER:&nbsp;</p><input type="text" name="min" id="min" placeholder="Minimum range">
+                <input type="text" name="max" id="max" placeholder="Maximum Range">
+                <button id="apply" onclick="range()">Apply</button>
+            </nav>
+            
+       </div>
+    </div>
+    </header >  
+    <section class="container" id="wrapper" style="padding-top: 100px;">
+    </section>
+    <div class="align" id = "cart">
+    <div class="C-row" >
+        <div class="C-container"  >
+            <h1 class="cart">" MY CART " </h1>
+           <i><h2 class="count">Number of Items in cart :</i>  </h2> <h1 class=" cart" id="totalCount">0</h1>
+        </div>
+    </div>
+</div>
+    <section class="container" id="cart-wrapper" style="padding-top: 10px;">
+    </section>
+    <footer class="row">
+        
+    <div class="container group" style="text-align: right;"><small>&copy;Tanya Swarup</small> POTTER's STOP | All Rights Reserved
+    </div>
+    </footer>
+    <script src="shopping.js"></script>
+</body>
+</html>

@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* -----------------------
+clearfix
+----------------------- */
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+/* ------------------------- */
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+.container{
+    width:1200px;
+    height: auto;
+    margin: auto;
+}
+.Hcontainer{
+    width:90%;
+    height: auto;
+    margin: auto;
+}
+.C-container{
+    width:800px;
+    height: auto;
+    margin: auto;
+}
+.row,.row1{
+    background-color: rgb(66, 66, 66);
+    width: 100%;
+    height: 100px;
+}
+.C-row
+    {
+        background-color: rgb(66, 66, 66);
+        width: 100%;
+        height: 70px;
+    }
+
+
+.logo{
+    float: left;
+    margin-left: 30px;
+}
+.row1{
+  position: fixed;
+}
+
+nav>p{
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav>a{
+    font-size: 24px;
+    line-height: 4;
+    padding: 0 5px;
+}
+nav>a:hover{
+    background-color: azure;
+    color: rgb(66, 66, 66);
+}
+.align{
+    border: 2px solid black;
+    height: auto;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.cart{
+    line-height: 2;
+    color: white;
+    font-size: 39px;
+    display: inline-block;
+}
+.count{
+    display: inline-block;
+    margin-left: 24%;
+    color: white;
+    letter-spacing: 2px;
+}
+input{
+    height: 35px;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+}
+#apply{
+    height: 30px;
+    cursor: pointer;
+    padding: 5px;
+    color: black;
+    background-color: white;
+}
+#apply:hover{
+    color: white;
+    background-color: black;
+}
+#search{
+    width: 300px;
+}
+#search:focus{
+    background-color: rgb(236, 255, 254);
+}
+#min,#max{
+    width: 120px;
+}
+#min:focus,#max:focus{
+    background-color: rgb(236, 255, 254);
+}
+footer>div{
+    font-size: 24px;
+    color: white;
+    line-height: 4;
+}
+small{
+    float: left;
+    font-size: 24px;
+}
+.product{
+    margin:45px;
+    width:300px;
+    height: 500px;
+    background-color: rgb(169, 255, 244);
+    display: inline-block;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.product-img{
+    overflow: hidden;
+    height:70%;
+    /* background-color: blueviolet; */
+    width: 100%;
+    
+}
+button{
+    padding: 10px;
+    color: white;
+    background-color: black;
+    margin-top:10px;
+    outline: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+button:hover{
+    color:black;
+    background-color:white;
+    cursor: pointer;
+    outline: none;
+}
